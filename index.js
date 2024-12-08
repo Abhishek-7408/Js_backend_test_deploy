@@ -63,6 +63,13 @@ app.get("/github", (req, res) => {
   res.json(githubData);
 });
 
+
+app.get("/weather", (req, res) => {
+  res.json("<h1> Click to check Weather </h1>");
+});
+
+
+
 app.listen(process.env.PORT, () => {
   console.log(`app running on PORT: ${PORT}`);
 });
