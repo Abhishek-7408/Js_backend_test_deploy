@@ -65,7 +65,7 @@ app.get("/github", (req, res) => {
 
 
 app.get("/weather", (req, res) => {
-  res.json("<h1> Click to check Weather </h1>");
+  res.send("<h1> Click to check Weather </h1>");
 });
 
 
